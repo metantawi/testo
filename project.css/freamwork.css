@@ -1,0 +1,178 @@
+.c-white {
+  color: white;
+}
+.c-white.dark {
+color: black;
+}
+.c-main {
+  color: var(--main-color);
+}
+.c-p {
+  color:#b9b8bb;
+}
+.btn-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 20px;
+}
+.d-grid-tow {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
+  gap: 20px;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pt-200 {
+  padding-top: 200px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pb-200 {
+  padding-top: 200px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-5 {
+  margin-bottom: 5PX;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.a-center {
+  align-items: center;
+}
+.t-c {
+  text-align: center;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.c-text {
+  color: var(--text-color);
+}
+.c-text-tow {
+  color: var(--color-text-tow);
+}
+.c-green {
+  color: #48BC65;
+}
+.c-red {
+  color: #E33B3B;
+}
+.p-re {
+  position: relative;
+}
+@media (max-width:991px) {
+.flex-column {
+  flex-direction: column;
+}
+.gap-20 {
+  gap: 20px;
+}
+.m-a-start {
+  align-items: start;
+}
+.m-a-center {
+  text-align: center;
+}
+.m-d-flex {
+  display: flex;
+}
+.m-mb-20 {
+  margin-bottom: 20px;
+}
+.m-d-none {
+  display: none;
+}
+}
+/* @media (max-width:1190px) {
+  .m-d-none {
+  display: none;
+}
+} */
+
+/* @media (min-width:991px) and (max-width:1190px) {
+  .l-d-none {
+    display: none;
+  }
+} */
+
+@media (max-width:1190px) {
+  .d-none-w {
+    display: none;
+  }
+}
+/* @media (max-width:1190px) {
+  .d-none-t {
+    display: none;
+  }
+} */
